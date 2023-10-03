@@ -75,6 +75,10 @@ nav {
     color: var(--text);
 }
 
+.header-nav-link:hover {
+    color: var(--contrast);
+}
+
 .header-bottom {
     display: flex;
     gap: 50px;
@@ -88,26 +92,31 @@ nav {
 /* products section */
 #products {
     background-color: white;
-    padding: 50px 150px;
+    padding: 50px 200px;
 }
 
 .product-list {
     list-style: none;
     padding-inline-start: 0px;
     display: flex;
-    gap: 20px;
-}
-
-.product-list-item {
-    border: 1px solid black;
-    padding: 20px;
+    gap: 50px;
 }
 
 .product-image {
     width: 100%;
+    transition: scale 0.4s, margin-bottom 0.4s;
+}
+
+.product-image:hover {
+    scale: 1.05;
+    margin-bottom: 5px;
 }
 
 .product-link {
     text-decoration: none;
+}
+
+.product-name:hover {
+    color: var(--contrast);
 }
 </style>
