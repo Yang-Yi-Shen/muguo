@@ -54,7 +54,7 @@
 
 <style scoped>
 header {
-    padding: 0px 50px;
+    padding: 0px 150px;
 }
 
 nav {
