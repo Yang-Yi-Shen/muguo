@@ -27,6 +27,29 @@
             </div>
         </div>
     </header>
+    <div id="products">
+        <h1 class="products-heading heading">廚師退件 ✨</h1>
+        <ul class="product-list">
+            <li class="product-list-item">
+                <img class="product-image" src="/src/assets/fancy_mooncakes.png">
+                <a class="product-link" href="/"><h2 class="product-name heading">紅豆月餅</h2></a>
+                <p class="product-description">一個很香的，用紅豆做的月餅。豆子都是廚師自手收集的。</p>
+                <p class="heading">NT$ 500</p>
+            </li>
+            <li class="product-list-item">
+                <img class="product-image" src="/src/assets/fancy_mooncakes.png">
+                <a class="product-link" href="/"><h2 class="product-name heading">紅豆月餅</h2></a>
+                <p class="product-description">一個很香的，用紅豆做的月餅。豆子都是廚師自手收集的。</p>
+                <p class="heading">NT$ 500</p>
+            </li>
+            <li class="product-list-item">
+                <img class="product-image" src="/src/assets/fancy_mooncakes.png">
+                <a class="product-link" href="/"><h2 class="product-name heading">紅豆月餅</h2></a>
+                <p class="product-description">一個很香的，用紅豆做的月餅。豆子都是廚師自手收集的。</p>
+                <p class="heading">NT$ 500</p>
+            </li>
+        </ul>
+    </div>
 </template>
 
 <style scoped>
@@ -60,5 +83,31 @@ nav {
 
 .header-image {
     height: 400px;
+}
+
+/* products section */
+#products {
+    background-color: white;
+    padding: 50px 150px;
+}
+
+.product-list {
+    list-style: none;
+    padding-inline-start: 0px;
+    display: flex;
+    gap: 20px;
+}
+
+.product-list-item {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.product-image {
+    width: 100%;
+}
+
+.product-link {
+    text-decoration: none;
 }
 </style>
