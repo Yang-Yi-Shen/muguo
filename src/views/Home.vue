@@ -49,6 +49,9 @@
                 <p class="heading">NT$ 500</p>
             </li>
         </ul>
+        <div class="products-btn-container">
+            <button class="products-btn">跟多選擇 >></button>
+        </div>
     </div>
 </template>
 
@@ -118,5 +121,27 @@ nav {
 
 .product-name:hover {
     color: var(--contrast);
+}
+
+.products-btn-container {
+    display: flex;
+}
+
+.products-btn {
+    background-color: white;
+    border: 2px solid var(--contrast);
+    border-radius: 5px;
+    color: var(--contrast);
+    font-size: 16px;
+    padding: 5px 15px;
+    text-align: center;
+    margin: 0px auto;
+    transition: background-color 0.4s, color 0.4s, border 0.4s;
+}
+
+.products-btn:hover {
+    background-color: var(--headings);
+    color: white;
+    border: 2px solid var(--headings)
 }
 </style>
