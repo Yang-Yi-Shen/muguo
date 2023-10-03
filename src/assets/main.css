@@ -15,3 +15,7 @@
     font-family: 'Noto Serif TC';
     color: var(--headings);
 }
+
+body {
+    margin: 0px;
+}
