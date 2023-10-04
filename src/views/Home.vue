@@ -20,7 +20,7 @@
             </ul>
         </nav>
         <div class="header-bottom">
-            <img class="header-image" src="/src/assets/mooncake_packaging.png">
+            <img class="header-image" src="/src/assets/cake_collection.jpeg">
             <div class="header-bottom-content">
                 <h1 class="heading header-bottom-title">用愛心做的點心</h1>
                 <p class="header-bottom-text">孫子曰：兵者，國之大事，死生之地，存亡之道，不可不察也。
@@ -37,19 +37,19 @@
         <h1 class="products-heading heading">廚師退件 ✨</h1>
         <ul class="product-list">
             <li class="product-list-item">
-                <img class="product-image" src="/src/assets/fancy_mooncakes.png">
+                <img class="product-image" src="/src/assets/egg_yolk_cake.jpeg">
                 <a class="product-link" href="/"><h2 class="product-name heading">紅豆月餅</h2></a>
                 <p class="product-description">一個很香的，用紅豆做的月餅。豆子都是廚師自手收集的。</p>
                 <p class="heading">NT$ 500</p>
             </li>
             <li class="product-list-item">
-                <img class="product-image" src="/src/assets/fancy_mooncakes.png">
+                <img class="product-image" src="/src/assets/taro_cake.jpeg">
                 <a class="product-link" href="/"><h2 class="product-name heading">紅豆月餅</h2></a>
                 <p class="product-description">一個很香的，用紅豆做的月餅。豆子都是廚師自手收集的。</p>
                 <p class="heading">NT$ 500</p>
             </li>
             <li class="product-list-item">
-                <img class="product-image" src="/src/assets/fancy_mooncakes.png">
+                <img class="product-image" src="/src/assets/pineapple_cake.jpeg">
                 <a class="product-link" href="/"><h2 class="product-name heading">紅豆月餅</h2></a>
                 <p class="product-description">一個很香的，用紅豆做的月餅。豆子都是廚師自手收集的。</p>
                 <p class="heading">NT$ 500</p>
@@ -99,7 +99,7 @@
                 兵久而國利者，未之有也。故不盡知用兵之害者，則不能盡知用兵之利也。</p>
             <button class="about-btn">學習更多 >></button>
         </div>
-        <img class="about-image" src="/src/assets/green_mooncakes.jpg">
+        <img class="about-image" src="/src/assets/logo.jpeg">
     </div>
 </template>
 
@@ -226,12 +226,12 @@ nav {
 #about {
     display: flex;
     background-color: white;
-    padding: 100px 200px;
-    gap: 50px;
+    padding: 100px 250px;
+    gap: 100px;
 }
 
 .about-image {
-    width: min(50%, 500px);
+    width: 300px;
 }
 
 .about-btn {
