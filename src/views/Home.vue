@@ -83,6 +83,18 @@
             </li>
         </ul>
     </div>
+    <div id="about">
+        <div class="about-content">
+            <h1 class="about-title heading">關於我們</h1>
+            <p class="about-text">孫子曰：凡用兵之法，馳車千駟，革車千乘，帶甲十萬，千里饋糧，則內外之費
+                ，賓客之用，膠漆之材，車甲之奉，日費千金，然后十萬之師舉矣。其用戰也貴
+                勝，久則鈍兵挫銳，攻城則力屈，久暴師則國用不足。夫鈍兵挫銳，屈力殫貨，
+                則諸侯乘其弊而起，雖有智者，不能善其后矣。故兵聞拙速，未睹巧之久也。夫
+                兵久而國利者，未之有也。故不盡知用兵之害者，則不能盡知用兵之利也。</p>
+            <button class="about-btn">學習更多 >></button>
+        </div>
+        <img class="about-image" src="/src/assets/green_mooncakes.jpg">
+    </div>
 </template>
 
 <style scoped>
@@ -203,5 +215,34 @@ nav {
     background-color: white;
     border-radius: 5px;
     padding: 10px 30px;
+}
+
+#about {
+    display: flex;
+    background-color: white;
+    padding: 100px 200px;
+    gap: 50px;
+}
+
+.about-image {
+    width: min(50%, 500px);
+}
+
+.about-btn {
+    background-color: white;
+    border: 2px solid var(--contrast);
+    border-radius: 5px;
+    color: var(--contrast);
+    font-size: 16px;
+    padding: 5px 15px;
+    text-align: center;
+    margin: 0px auto;
+    transition: background-color 0.4s, color 0.4s, border 0.4s;
+}
+
+.about-btn:hover {
+    background-color: var(--headings);
+    color: white;
+    border: 2px solid var(--headings)
 }
 </style>
