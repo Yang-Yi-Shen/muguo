@@ -53,6 +53,36 @@
             <button class="products-btn">跟多選擇 >></button>
         </div>
     </div>
+    <div id="reviews">
+        <h1 class="review-title heading">客戶評價</h1>
+        <ul class="reviews-list">
+            <li class="review-item">
+                <h2 class="review-author heading">沈洋逸</h2>
+                <p class="review-text">這些月餅很好吃！我對產品完全滿意</p>
+                <p class="review-rating">⭐⭐⭐⭐⭐</p>
+            </li>
+            <li class="review-item">
+                <h2 class="review-author heading">沈洋逸</h2>
+                <p class="review-text">這些月餅很好吃！我對產品完全滿意</p>
+                <p class="review-rating">⭐⭐⭐⭐⭐</p>
+            </li>
+            <li class="review-item">
+                <h2 class="review-author heading">沈洋逸</h2>
+                <p class="review-text">這些月餅很好吃！我對產品完全滿意</p>
+                <p class="review-rating">⭐⭐⭐⭐⭐</p>
+            </li>
+            <li class="review-item">
+                <h2 class="review-author heading">沈洋逸</h2>
+                <p class="review-text">這些月餅很好吃！我對產品完全滿意</p>
+                <p class="review-rating">⭐⭐⭐⭐⭐</p>
+            </li>
+            <li class="review-item">
+                <h2 class="review-author heading">沈洋逸</h2>
+                <p class="review-text">這些月餅很好吃！我對產品完全滿意</p>
+                <p class="review-rating">⭐⭐⭐⭐⭐</p>
+            </li>
+        </ul>
+    </div>
 </template>
 
 <style scoped>
@@ -143,5 +173,35 @@ nav {
     background-color: var(--headings);
     color: white;
     border: 2px solid var(--headings)
+}
+
+/* reviews section */
+#reviews {
+    padding: 50px 0px;
+}
+
+.review-title {
+    padding: 0px 150px;
+}
+
+.reviews-list {
+    list-style: none;
+    padding-inline-start: 0px;
+    padding: 0px 50px;
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+    transition: scale 0.4s;
+}
+
+.reviews-list:hover {
+    scale: 1.02;
+}
+
+.review-item {
+    min-width: 280px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 30px;
 }
 </style>
