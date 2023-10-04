@@ -23,7 +23,13 @@
             <img class="header-image" src="/src/assets/mooncake_packaging.png">
             <div class="header-bottom-content">
                 <h1 class="heading header-bottom-title">用愛心做的點心</h1>
-                <p class="header-bottom-text">新華面包店是一個很小的店。我們只能做少量產品，但是從這裡發出的每一個蛋糕會從滿愛心跟高級的材料。</p>
+                <p class="header-bottom-text">孫子曰：兵者，國之大事，死生之地，存亡之道，不可不察也。
+                    故經之以五，校之以計，而索其情：一曰道，二曰天，三曰地，四曰將，五曰法
+                    。道者，令民于上同意者也，可與之死，可與之生，民不詭也。天者，陰陽、寒
+                    暑、時制也。地者，高下、遠近、險易、廣狹、死生也。將者，智、信、仁、勇
+                    、嚴也。法者，曲制、官道、主用也。凡此五者，將莫不聞，知之者勝，不知之
+                    者不勝。故校之以計，而索其情。曰：主孰有道？將孰有能？天地孰得？法令孰
+                    行？兵眾孰強？士卒孰練？賞罰孰明？吾以此知勝負矣。</p>
             </div>
         </div>
     </header>
