@@ -3,7 +3,7 @@
 <template>
     <header>
         <nav class="header-top">
-            <h2 class="heading logo">新華麵包店</h2>
+            <h2 class="heading logo">Muguo</h2>
             <ul class="header-nav">
                 <li class="header-nav-item">
                     <a class="header-nav-link" href="/"><p class="header-nav-text">關於</p></a>

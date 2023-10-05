@@ -1,4 +1,4 @@
-# Xinhua Bakery 🥮
+# Muguo 🥮
 
 A website for my cousin's small bakery! She sells moon cakes and other traditional Chinese snacks. Feel free to place an order, they taste great! (shipping is limited to Taiwan)
 
