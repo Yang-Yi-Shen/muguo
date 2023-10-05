@@ -29,13 +29,15 @@ import Footer from '../components/Footer.vue'
 <style scoped>
 main {
     background-color: white;
-    padding: 50px 250px;
+    padding: 100px 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
 }
 
 .section-content {
     display: flex;
     gap: 50px;
-    margin-bottom: 50px;
 }
 
 .section-image {
