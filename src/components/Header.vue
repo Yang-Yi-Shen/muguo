@@ -4,7 +4,9 @@ import { RouterLink } from 'vue-router';
 
 <template>
     <header>
-        <h2 class="heading logo">Muguo</h2>
+        <RouterLink to="/" class="logo-wrapper">
+            <h2 class="heading logo">Muguo</h2>
+        </RouterLink>
         <ul class="header-nav">
             <li class="header-nav-item">
                 <RouterLink class="header-nav-link" to="/about">
@@ -31,6 +33,10 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0px 150px;
+}
+
+.logo-wrapper {
+    text-decoration: none;
 }
 
 .header-nav {
