@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+import { RouterLink } from 'vue-router';
+</script>
 
 <template>
     <header>
@@ -6,7 +8,7 @@
             <h2 class="heading logo">Muguo</h2>
             <ul class="header-nav">
                 <li class="header-nav-item">
-                    <a class="header-nav-link" href="/"><p class="header-nav-text">關於</p></a>
+                    <RouterLink class="header-nav-link" to="/about"><p class="header-nav-text">關於</p></RouterLink>
                 </li>
                 <li class="header-nav-item">
                     <a class="header-nav-link" href="/"><p class="header-nav-text">產品</p></a>
