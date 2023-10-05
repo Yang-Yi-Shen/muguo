@@ -96,7 +96,7 @@ import { RouterLink } from 'vue-router';
                 勝，久則鈍兵挫銳，攻城則力屈，久暴師則國用不足。夫鈍兵挫銳，屈力殫貨，
                 則諸侯乘其弊而起，雖有智者，不能善其后矣。故兵聞拙速，未睹巧之久也。夫
                 兵久而國利者，未之有也。故不盡知用兵之害者，則不能盡知用兵之利也。</p>
-            <button class="about-btn">學習更多 >></button>
+            <button class="about-btn">了解更多 >></button>
         </div>
         <img class="about-image" src="/src/assets/logo.jpeg">
     </div>
