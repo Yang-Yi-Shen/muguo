@@ -14,9 +14,6 @@ import { RouterLink } from 'vue-router';
                     <a class="header-nav-link" href="/"><p class="header-nav-text">產品</p></a>
                 </li>
                 <li class="header-nav-item">
-                    <a class="header-nav-link" href="/"><p class="header-nav-text">過程</p></a>
-                </li>
-                <li class="header-nav-item">
                     <a class="header-nav-link" href="/"><p class="header-nav-text">聯絡</p></a>
                 </li>
             </ul>
