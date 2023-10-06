@@ -23,7 +23,7 @@ import Footer from '../components/Footer.vue'
             </div>
         </div>
     </main>
-    <Footer />
+    <Footer id="contact" />
 </template>
 
 <style scoped>

@@ -14,7 +14,7 @@ import Product from '../components/Product.vue';
         <Product image="pineapple_cake.jpeg" name="鳳梨酥、蔓越莓酥1" description="太尉看那官殿時，端的是好座上清宮。" price="450" />
         <Product image="flatcakes.png" name="經典酥餅" description="青松屈曲，翠柏陰森。門懸敕額金書，戶列靈符玉篆" price="390" />
     </main>
-    <Footer />
+    <Footer id="contact" />
 </template>
 
 <style scoped>

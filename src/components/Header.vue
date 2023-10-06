@@ -19,9 +19,9 @@ import { RouterLink } from 'vue-router';
                 </RouterLink>
             </li>
             <li class="header-nav-item">
-                <RouterLink class="header-nav-link" to="/contact">
+                <a class="header-nav-link" href="#contact">
                     <p class="header-nav-text">聯絡</p>
-                </RouterLink>
+                </a>
             </li>
         </ul>
     </header>
