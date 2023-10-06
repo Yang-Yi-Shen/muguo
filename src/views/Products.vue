@@ -1,59 +1,18 @@
 <script setup>
 import Header from '../components/Header.vue';
 import Footer from '../components/Footer.vue';
+import Product from '../components/Product.vue';
 </script>
 
 <template>
     <Header />
     <main>
-        <div class="product">
-            <img class="product-image" src="/src/assets/cake_collection.jpeg">
-            <a class="product-link" href="/">
-                <h2 class="product-name heading">紅豆月餅</h2>
-            </a>
-            <p class="product-description">一個很香的，用紅豆做的月餅。豆子都是廚師自手收集的。</p>
-            <p class="product-price heading">NT$ 500</p>
-        </div>
-        <div class="product">
-            <img class="product-image" src="/src/assets/egg_yolk_cake.jpeg">
-            <a class="product-link" href="/">
-                <h2 class="product-name heading">紅豆月餅</h2>
-            </a>
-            <p class="product-description">一個很香的，用紅豆做的月餅。豆子都是廚師自手收集的。</p>
-            <p class="product-price heading">NT$ 500</p>
-        </div>
-        <div class="product">
-            <img class="product-image" src="/src/assets/carrot_egg_yolk_cake.jpeg">
-            <a class="product-link" href="/">
-                <h2 class="product-name heading">紅豆月餅</h2>
-            </a>
-            <p class="product-description">一個很香的，用紅豆做的月餅。豆子都是廚師自手收集的。</p>
-            <p class="product-price heading">NT$ 500</p>
-        </div>
-        <div class="product">
-            <img class="product-image" src="/src/assets/taro_cake.jpeg">
-            <a class="product-link" href="/">
-                <h2 class="product-name heading">紅豆月餅</h2>
-            </a>
-            <p class="product-description">一個很香的，用紅豆做的月餅。豆子都是廚師自手收集的。</p>
-            <p class="product-price heading">NT$ 500</p>
-        </div>
-        <div class="product">
-            <img class="product-image" src="/src/assets/pineapple_cake.jpeg">
-            <a class="product-link" href="/">
-                <h2 class="product-name heading">紅豆月餅</h2>
-            </a>
-            <p class="product-description">一個很香的，用紅豆做的月餅。豆子都是廚師自手收集的。</p>
-            <p class="product-price heading">NT$ 500</p>
-        </div>
-        <div class="product">
-            <img class="product-image" src="/src/assets/flatcakes.png">
-            <a class="product-link" href="/">
-                <h2 class="product-name heading">紅豆月餅</h2>
-            </a>
-            <p class="product-description">一個很香的，用紅豆做的月餅。豆子都是廚師自手收集的。</p>
-            <p class="product-price heading">NT$ 500</p>
-        </div>
+        <Product image="cake_collection.jpeg" name="綜合禮盒" description="有各種不同的甜點，是中秋節的理想禮物" price="680" />
+        <Product image="egg_yolk_cake.jpeg" name="蛋黃酥" description="大小官員出郭迎接，隨即差人報知龍虎山上清宮住持道眾，準備接詔。" price="600" />
+        <Product image="carrot_egg_yolk_cake.jpeg" name="菠蘿蛋黃酥" description="次日，眾位官同送太尉到於龍虎山下。" price="650" />
+        <Product image="taro_cake.jpeg" name="綜合芋頭酥" description="且說大尉洪信資擎御書，一行人從上了路途，不止一日，來到江西信州。" price="550" />
+        <Product image="pineapple_cake.jpeg" name="鳳梨酥、蔓越莓酥1" description="太尉看那官殿時，端的是好座上清宮。" price="450" />
+        <Product image="flatcakes.png" name="經典酥餅" description="青松屈曲，翠柏陰森。門懸敕額金書，戶列靈符玉篆" price="390" />
     </main>
     <Footer />
 </template>
