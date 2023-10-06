@@ -4,6 +4,7 @@
     font-family: 'Noto Sans TC';
     background-color: var(--background);
     color: var(--text);
+    scroll-behavior: smooth;
     
     --background: #F4D58D;
     --text: #3E4E50;
