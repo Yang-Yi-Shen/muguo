@@ -54,9 +54,9 @@ import { RouterLink } from 'vue-router';
                 <p class="heading">NT$ 500</p>
             </li>
         </ul>
-        <div class="products-btn-container">
+        <RouterLink to="/products" class="products-btn-container" target="_blank">
             <button class="products-btn">跟多選擇 >></button>
-        </div>
+        </RouterLink>
     </div>
     <div id="reviews">
         <h1 class="review-title heading">客戶評價</h1>
@@ -96,7 +96,9 @@ import { RouterLink } from 'vue-router';
                 勝，久則鈍兵挫銳，攻城則力屈，久暴師則國用不足。夫鈍兵挫銳，屈力殫貨，
                 則諸侯乘其弊而起，雖有智者，不能善其后矣。故兵聞拙速，未睹巧之久也。夫
                 兵久而國利者，未之有也。故不盡知用兵之害者，則不能盡知用兵之利也。</p>
-            <button class="about-btn">了解更多 >></button>
+            <RouterLink class="about-btn-container" to="/about" target="_blank">
+                <button class="about-btn">了解更多 >></button>
+            </RouterLink>
         </div>
         <img class="about-image" src="/src/assets/logo.jpeg">
     </div>
@@ -193,6 +195,7 @@ nav {
 
 .products-btn-container {
     display: flex;
+    text-decoration: none;
 }
 
 .products-btn {
@@ -253,6 +256,10 @@ nav {
 
 .about-image {
     width: 300px;
+}
+
+.about-btn-container {
+    text-decoration: none;
 }
 
 .about-btn {
