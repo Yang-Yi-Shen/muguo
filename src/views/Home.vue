@@ -1,5 +1,7 @@
 <script setup>
 import { RouterLink } from 'vue-router';
+
+import Footer from '../components/Footer.vue';
 </script>
 
 <template>
@@ -102,28 +104,7 @@ import { RouterLink } from 'vue-router';
         </div>
         <img class="about-image" src="/src/assets/logo.jpeg">
     </div>
-    <div id="contacts">
-        <h1 class="contacts-title heading">跟我們聯絡</h1>
-        <h2 class="contacts-subtitle">下訂單跟探險我們的內容</h2>
-        <ul class="contacts-list">
-            <li class="contacts-item">
-                <a class="contacts-item-link">
-                    <i class="contacts-item-icon fa-brands fa-line"></i>  
-                </a>
-            </li>
-            <li class="contacts-item">
-                <a class="contacts-item-link">
-                    <i class="contacts-item-icon fa-brands fa-facebook"></i>  
-                </a>
-            </li>
-            <li class="contacts-item">
-                <a class="contacts-item-link">
-                    <i class="contacts-item-icon fa-brands fa-instagram"></i>  
-                </a>
-            </li>
-        </ul>
-        <p>© Copyright 2023 Muguo</p>
-    </div>
+    <Footer id="contacts" />
 </template>
 
 <style scoped>
