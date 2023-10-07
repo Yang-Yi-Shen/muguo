@@ -24,41 +24,37 @@ import Footer from '../components/Footer.vue';
             <img class="header-image" src="/src/assets/cake_collection.jpeg">
             <div class="header-bottom-content">
                 <h1 class="heading header-bottom-title">用愛心做的點心</h1>
-                <p class="header-bottom-text">孫子曰：兵者，國之大事，死生之地，存亡之道，不可不察也。
-                    故經之以五，校之以計，而索其情：一曰道，二曰天，三曰地，四曰將，五曰法
-                    。道者，令民于上同意者也，可與之死，可與之生，民不詭也。天者，陰陽、寒
-                    暑、時制也。地者，高下、遠近、險易、廣狹、死生也。將者，智、信、仁、勇
-                    、嚴也。法者，曲制、官道、主用也。凡此五者，將莫不聞，知之者勝，不知之
-                    者不勝。故校之以計，而索其情。曰：主孰有道？將孰有能？天地孰得？法令孰
-                    行？兵眾孰強？士卒孰練？賞罰孰明？吾以此知勝負矣。</p>
+                <p class="header-bottom-text">因幫了一個生鐵王員外兒子使錢</p>
             </div>
         </div>
     </header>
     <div id="products">
-        <h1 class="products-heading heading">廚師退件 ✨</h1>
-        <ul class="product-list">
-            <li class="product-list-item">
-                <img class="product-image" src="/src/assets/egg_yolk_cake.jpeg">
-                <a class="product-link" href="/"><h2 class="product-name heading">紅豆月餅</h2></a>
-                <p class="product-description">一個很香的，用紅豆做的月餅。豆子都是廚師自手收集的。</p>
-                <p class="heading">NT$ 500</p>
-            </li>
-            <li class="product-list-item">
-                <img class="product-image" src="/src/assets/taro_cake.jpeg">
-                <a class="product-link" href="/"><h2 class="product-name heading">紅豆月餅</h2></a>
-                <p class="product-description">一個很香的，用紅豆做的月餅。豆子都是廚師自手收集的。</p>
-                <p class="heading">NT$ 500</p>
-            </li>
-            <li class="product-list-item">
-                <img class="product-image" src="/src/assets/pineapple_cake.jpeg">
-                <a class="product-link" href="/"><h2 class="product-name heading">紅豆月餅</h2></a>
-                <p class="product-description">一個很香的，用紅豆做的月餅。豆子都是廚師自手收集的。</p>
-                <p class="heading">NT$ 500</p>
-            </li>
-        </ul>
-        <RouterLink to="/products" class="products-btn-container" target="_blank">
-            <button class="products-btn">跟多選擇 >></button>
-        </RouterLink>
+        <div class="products-container">
+            <h1 class="products-heading heading">廚師退件 ✨</h1>
+            <ul class="product-list">
+                <li class="product-list-item">
+                    <img class="product-image" src="/src/assets/egg_yolk_cake.jpeg">
+                    <a class="product-link" href="/"><h2 class="product-name heading">紅豆月餅</h2></a>
+                    <p class="product-description">一個很香的，用紅豆做的月餅。豆子都是廚師自手收集的。</p>
+                    <p class="heading">NT$ 500</p>
+                </li>
+                <li class="product-list-item">
+                    <img class="product-image" src="/src/assets/taro_cake.jpeg">
+                    <a class="product-link" href="/"><h2 class="product-name heading">紅豆月餅</h2></a>
+                    <p class="product-description">一個很香的，用紅豆做的月餅。豆子都是廚師自手收集的。</p>
+                    <p class="heading">NT$ 500</p>
+                </li>
+                <li class="product-list-item">
+                    <img class="product-image" src="/src/assets/pineapple_cake.jpeg">
+                    <a class="product-link" href="/"><h2 class="product-name heading">紅豆月餅</h2></a>
+                    <p class="product-description">一個很香的，用紅豆做的月餅。豆子都是廚師自手收集的。</p>
+                    <p class="heading">NT$ 500</p>
+                </li>
+            </ul>
+            <RouterLink to="/products" class="products-btn-container" target="_blank">
+                <button class="products-btn">跟多選擇 >></button>
+            </RouterLink>
+        </div>
     </div>
     <div id="reviews">
         <h1 class="review-title heading">客戶評價</h1>
@@ -94,22 +90,30 @@ import Footer from '../components/Footer.vue';
         <div class="about-content">
             <h1 class="about-title heading">關於我們</h1>
             <p class="about-text">孫子曰：凡用兵之法，馳車千駟，革車千乘，帶甲十萬，千里饋糧，則內外之費
-                ，賓客之用，膠漆之材，車甲之奉，日費千金，然后十萬之師舉矣。其用戰也貴
-                勝，久則鈍兵挫銳，攻城則力屈，久暴師則國用不足。夫鈍兵挫銳，屈力殫貨，
-                則諸侯乘其弊而起，雖有智者，不能善其后矣。故兵聞拙速，未睹巧之久也。夫
-                兵久而國利者，未之有也。故不盡知用兵之害者，則不能盡知用兵之利也。</p>
+                ，賓客之用，膠漆之材，車甲之奉，日費千金，然后十萬之師舉矣。
+            </p>
             <RouterLink class="about-btn-container" to="/about" target="_blank">
                 <button class="about-btn">了解更多 >></button>
             </RouterLink>
         </div>
         <img class="about-image" src="/src/assets/logo.jpeg">
     </div>
+    <div id="about-mobile">
+        <h1 class="about-title heading">關於我們</h1>
+        <img class="about-image-mobile" src="/src/assets/logo.jpeg">
+        <p class="about-text-mobile">孫子曰：凡用兵之法，馳車千駟，革車千乘，帶甲十萬，千里饋糧，則內外之費
+            ，賓客之用，膠漆之材，車甲之奉，日費千金，然后十萬之師舉矣。
+        </p>
+        <RouterLink class="about-btn-container" to="/about" target="_blank">
+            <button class="about-btn">了解更多 >></button>
+        </RouterLink>    
+    </div>
     <Footer id="contacts" />
 </template>
 
 <style scoped>
 header {
-    padding: 0px 150px;
+    padding: 0px 200px;
 }
 
 nav {
@@ -136,18 +140,39 @@ nav {
 
 .header-bottom {
     display: flex;
+    justify-content: center;
     gap: 50px;
     padding: 50px 0px;
 }
 
 .header-image {
-    height: 400px;
+    width: min(400px, 50%);
+    object-fit: scale-down;
+    flex-basis: 1;
+}
+
+.header-bottom-content {
+    flex-basis: 1;
+}
+
+.header-bottom-title {
+    font-size: 48px;
+}
+
+.header-bottom-text {
+    font-size: 24px;
 }
 
 /* products section */
 #products {
     background-color: white;
-    padding: 50px 200px;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.products-container {
+    padding: 0px 200px;
 }
 
 .product-list {
@@ -155,6 +180,10 @@ nav {
     padding-inline-start: 0px;
     display: flex;
     gap: 50px;
+}
+
+.product-list-item {
+    min-width: 230px;
 }
 
 .product-image {
@@ -230,14 +259,29 @@ nav {
 
 /* about section */
 #about {
+    max-width: 100vw;
     display: flex;
     background-color: white;
     padding: 100px 250px;
     gap: 100px;
+    justify-content: center;
+}
+
+#about-mobile {
+    display: none;
+}
+
+.about-content {
+    min-width: 160px;
+}
+
+.about-title {
+    margin: 0px;
 }
 
 .about-image {
     width: 300px;
+    object-fit: scale-down;
 }
 
 .about-btn-container {
@@ -298,5 +342,85 @@ nav {
 
 .contacts-item-icon:hover {
     color: #3e4e50c5
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 0px;
+    }
+
+    .header-top {
+        padding: 0px 50px;
+    }
+
+    .header-bottom {
+        padding: 0px 0px 30px;
+        display: block;
+        text-align: center;
+    }
+
+    .header-image {
+        width: 100%;
+    }
+
+    .header-bottom-content {
+        padding: 20px;
+    }
+
+    /* products section */
+    #products {
+        padding: 0px 50px 50px;
+    }
+
+    .products-heading {
+        padding: 20px 0px;
+        margin: 0px;
+    }
+
+    .product-list {
+        flex-direction: column;
+
+    }
+    .product-list-item {
+        max-width: 100vw;
+    }
+
+    .product-image {
+        border: 0.1px solid var(--text);
+    }
+
+    /* reviews section */
+    #reviews {
+        padding: 20px 0px 50px;
+    }
+
+    .review-title {
+        padding: 0px 20px;
+    }
+
+    .reviews-list {
+        padding: 0px 20px;
+    }
+
+    /* about */
+    #about {
+        display: none;
+    }
+
+    #about-mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 50px 50px;
+        background-color: white;
+    }
+
+    .about-image-mobile {
+        width: 100%;
+    }
+
+    .about-text-mobile {
+        margin: 30px 0px;
+    }
 }
 </style>
