@@ -55,25 +55,9 @@ header {
     color: var(--contrast);
 }
 
-/* nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+@media (max-width: 768px) {
+    header {
+        padding: 0px 50px;
+    }
 }
-
-.header-nav {
-    list-style: none;
-    padding-inline-start: 0px;
-    display: flex;
-    gap: 30px;
-}
-
-.header-nav-link {
-    text-decoration: none;
-    color: var(--text);
-}
-
-.header-nav-link:hover {
-    color: var(--contrast);
-} */
 </style>
