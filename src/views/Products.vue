@@ -20,7 +20,7 @@ import Product from '../components/Product.vue';
 <style scoped>
 main {
     background-color: white;
-    padding: 100px 200px;
+    padding: 100px min(200px, 15%);
     display: flex;
     flex-flow: wrap;
     justify-content: space-between;
@@ -28,25 +28,18 @@ main {
     row-gap: 70px;
 }
 
-.product {
-    width: min(30%, 300px);
-}
-
-.product-image {
-    width: 100%;
-    transition: scale 0.4s, margin-bottom 0.4s;
-}
-
-.product-image:hover {
-    scale: 1.05;
-    margin-bottom: 5px;
-}
-
-.product-link {
-    text-decoration: none;
-}
-
 .product-name:hover {
     color: var(--contrast);
+}
+
+@media (max-width: 768px) {
+    main {
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .product {
+        width: calc((100vw - 60px) / 2);
+    }
 }
 </style>
