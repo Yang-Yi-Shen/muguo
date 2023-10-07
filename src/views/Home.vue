@@ -116,6 +116,10 @@ header {
     padding: 0px 200px;
 }
 
+.logo:hover {
+    color: var(--contrast);
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -127,6 +131,7 @@ nav {
     padding-inline-start: 0px;
     display: flex;
     gap: 30px;
+    font-size: 18px;
 }
 
 .header-nav-link {

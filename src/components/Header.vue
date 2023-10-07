@@ -32,11 +32,15 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 150px;
+    padding: 0px 200px;
 }
 
 .logo-wrapper {
     text-decoration: none;
+}
+
+.logo:hover {
+    color: var(--contrast);
 }
 
 .header-nav {
@@ -44,6 +48,7 @@ header {
     padding-inline-start: 0px;
     display: flex;
     gap: 30px;
+    font-size: 18px;
 }
 
 .header-nav-link {
