@@ -99,7 +99,7 @@ import Footer from '../components/Footer.vue';
         <img class="about-image" src="/src/assets/logo.jpeg">
     </div>
     <div id="about-mobile">
-        <h1 class="about-title heading">關於我們</h1>
+        <h1 class="about-title-mobile heading">關於我們</h1>
         <img class="about-image-mobile" src="/src/assets/logo.jpeg">
         <p class="about-text-mobile">孫子曰：凡用兵之法，馳車千駟，革車千乘，帶甲十萬，千里饋糧，則內外之費
             ，賓客之用，膠漆之材，車甲之奉，日費千金，然后十萬之師舉矣。
@@ -369,7 +369,11 @@ nav {
 
     /* products section */
     #products {
-        padding: 0px 50px 50px;
+        padding: 50px 0px;
+    }
+
+    .products-container {
+        padding: 0px 50px;
     }
 
     .products-heading {
@@ -413,6 +417,10 @@ nav {
         align-items: center;
         padding: 20px 50px 50px;
         background-color: white;
+    }
+    
+    .about-title {
+        margin: auto;
     }
 
     .about-image-mobile {
