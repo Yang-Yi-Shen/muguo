@@ -6,17 +6,17 @@
         <h2 class="contacts-subtitle">下訂單跟探險我們的內容</h2>
         <ul class="contacts-list">
             <li class="contacts-item">
-                <a class="contacts-item-link">
+                <a class="contacts-item-link" target="_blank">
                     <i class="contacts-item-icon fa-brands fa-line"></i>
                 </a>
             </li>
             <li class="contacts-item">
-                <a class="contacts-item-link">
+                <a class="contacts-item-link" target="_blank" href="https://www.facebook.com/people/%E8%8E%AF%E8%8F%93Muguo%E6%89%8B%E4%BD%9C%E7%94%9C%E9%BB%9E%E5%B0%88%E8%B3%A3/100093143116846/" >
                     <i class="contacts-item-icon fa-brands fa-facebook"></i>
                 </a>
             </li>
             <li class="contacts-item">
-                <a class="contacts-item-link">
+                <a class="contacts-item-link" target="_blank" href="https://www.instagram.com/mu.guo2023/" >
                     <i class="contacts-item-icon fa-brands fa-instagram"></i>
                 </a>
             </li>
@@ -50,6 +50,10 @@ footer {
     align-items: center;
     justify-content: center;
     margin: 30px 0px;
+}
+
+.contacts-item-link {
+    text-decoration: none;
 }
 
 .contacts-item-icon {
