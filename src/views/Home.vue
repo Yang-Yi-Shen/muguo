@@ -122,6 +122,7 @@ import { RouterLink } from 'vue-router';
                 </a>
             </li>
         </ul>
+        <p>© Copyright 2023 Muguo</p>
     </div>
 </template>
 

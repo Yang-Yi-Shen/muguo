@@ -21,6 +21,7 @@
                 </a>
             </li>
         </ul>
+        <p>© Copyright 2023 Muguo</p>
     </footer>
 </template>
 
@@ -32,10 +33,13 @@ footer {
     padding: 50px 0px;
 }
 
+.contacts-title {
+    margin: 0px;
+}
+
 .contacts-subtitle {
     font-weight: 500;
     font-family: 'Noto Serif TC';
-    margin: 0px 0px 30px;
 }
 
 .contacts-list {
@@ -45,6 +49,7 @@ footer {
     gap: 30px;
     align-items: center;
     justify-content: center;
+    margin: 30px 0px;
 }
 
 .contacts-item-icon {
