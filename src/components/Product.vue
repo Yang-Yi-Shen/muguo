@@ -1,18 +1,22 @@
 <script setup>
-import { isIntegerKey } from '@vue/shared';
-
+import { RouterLink } from "vue-router";
 defineProps({
     image: String,
     name: String,
     description: String,
-    price: Number
+    price: String,
+    link: String
 })
 </script>
 
 <template>
     <div class="product">
-        <img class="product-image" :src="`/src/assets/${image}`">
-        <h2 class="product-name heading">{{ name }}</h2>
+        <RouterLink :to="`/products/${ link }`">
+            <img class="product-image" :src="`/src/assets/${image}`">
+        </RouterLink>
+        <RouterLink :to="`/products/${ link }`" class="product-name-wrapper" >
+            <h2 class="product-name heading">{{ name }}</h2>
+        </RouterLink>
         <p class="product-description">{{ description }}</p>
         <p class="product-price heading">NT$ {{ price }}</p>
     </div>
@@ -31,6 +35,10 @@ defineProps({
 .product-image:hover {
     scale: 1.05;
     margin-bottom: 5px;
+}
+
+.product-name-wrapper {
+    text-decoration: none;
 }
 
 .product-name:hover {
