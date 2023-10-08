@@ -12,7 +12,7 @@ defineProps({
 <template>
     <div class="product">
         <RouterLink :to="`/products/${ link }`">
-            <img class="product-image" :src="`/src/assets/${image}`">
+            <img class="product-image" :src="image">
         </RouterLink>
         <RouterLink :to="`/products/${ link }`" class="product-name-wrapper" >
             <h2 class="product-name heading">{{ name }}</h2>
