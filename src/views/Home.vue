@@ -33,20 +33,26 @@ import Footer from '../components/Footer.vue';
             <h1 class="products-heading heading">廚師退件 ✨</h1>
             <ul class="product-list">
                 <li class="product-list-item">
-                    <img class="product-image" src="/src/assets/egg_yolk_cake.jpeg">
-                    <a class="product-link" href="/"><h2 class="product-name heading">紅豆月餅</h2></a>
+                    <RouterLink to="/products/eggyolk">
+                        <img class="product-image" src="/src/assets/egg_yolk_cake.jpeg">
+                    </RouterLink>
+                    <RouterLink class="product-link" to="/products/eggyolk"><h2 class="product-name heading">紅豆月餅</h2></RouterLink>
                     <p class="product-description">一個很香的，用紅豆做的月餅。豆子都是廚師自手收集的。</p>
                     <p class="heading">NT$ 500</p>
                 </li>
                 <li class="product-list-item">
-                    <img class="product-image" src="/src/assets/taro_cake.jpeg">
-                    <a class="product-link" href="/"><h2 class="product-name heading">紅豆月餅</h2></a>
+                    <RouterLink to="/products/taro">
+                        <img class="product-image" src="/src/assets/taro_cake.jpeg">
+                    </RouterLink>
+                    <RouterLink class="product-link" to="/products/taro"><h2 class="product-name heading">紅豆月餅</h2></RouterLink>
                     <p class="product-description">一個很香的，用紅豆做的月餅。豆子都是廚師自手收集的。</p>
                     <p class="heading">NT$ 500</p>
                 </li>
                 <li class="product-list-item">
-                    <img class="product-image" src="/src/assets/pineapple_cake.jpeg">
-                    <a class="product-link" href="/"><h2 class="product-name heading">紅豆月餅</h2></a>
+                    <RouterLink to="/products/pineapple">
+                        <img class="product-image" src="/src/assets/pineapple_cake.jpeg">
+                    </RouterLink>
+                    <RouterLink class="product-link" to="/products/pineapple"><h2 class="product-name heading">紅豆月餅</h2></RouterLink>
                     <p class="product-description">一個很香的，用紅豆做的月餅。豆子都是廚師自手收集的。</p>
                     <p class="heading">NT$ 500</p>
                 </li>
