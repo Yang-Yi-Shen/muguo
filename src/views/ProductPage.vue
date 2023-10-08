@@ -3,6 +3,7 @@ import { useRouter, RouterLink } from "vue-router";
 
 import Header from '../components/Header.vue';
 import Footer from '../components/Footer.vue';
+import Product from '../components/Product.vue';
 
 const router = useRouter()
 const itemName = router.currentRoute.value.params.name
@@ -77,7 +78,7 @@ main {
     background-color: white;
     display: flex;
     gap: 50px;
-    padding: 50px 200px;
+    padding: 50px min(200px, 15%);
 }
 
 .item-image-wrapper {
@@ -90,5 +91,17 @@ main {
 
 .item-name-wrapper {
     text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    main {
+        padding: 20px;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .item-image-wrapper {
+        width: 100%;
+    }
 }
 </style>
