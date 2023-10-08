@@ -2,8 +2,8 @@
 
 <template>
     <footer>
-        <h1 class="contacts-title heading">跟我們聯絡</h1>
-        <h2 class="contacts-subtitle">下訂單跟探險我們的內容</h2>
+        <h1 class="contacts-title heading">要下訂單嗎？</h1>
+        <h2 class="contacts-subtitle">可以用這些方式跟我們聯絡</h2>
         <ul class="contacts-list">
             <li class="contacts-item">
                 <a class="contacts-item-link" target="_blank">
