@@ -57,7 +57,7 @@ import Footer from '../components/Footer.vue';
                     <p class="heading">NT$ 500</p>
                 </li>
             </ul>
-            <RouterLink to="/products" class="products-btn-container" target="_blank">
+            <RouterLink to="/products" class="products-btn-container">
                 <button class="products-btn">跟多選擇 >></button>
             </RouterLink>
         </div>
@@ -98,7 +98,7 @@ import Footer from '../components/Footer.vue';
             <p class="about-text">孫子曰：凡用兵之法，馳車千駟，革車千乘，帶甲十萬，千里饋糧，則內外之費
                 ，賓客之用，膠漆之材，車甲之奉，日費千金，然后十萬之師舉矣。
             </p>
-            <RouterLink class="about-btn-container" to="/about" target="_blank">
+            <RouterLink class="about-btn-container" to="/about">
                 <button class="about-btn">了解更多 >></button>
             </RouterLink>
         </div>
@@ -110,7 +110,7 @@ import Footer from '../components/Footer.vue';
         <p class="about-text-mobile">孫子曰：凡用兵之法，馳車千駟，革車千乘，帶甲十萬，千里饋糧，則內外之費
             ，賓客之用，膠漆之材，車甲之奉，日費千金，然后十萬之師舉矣。
         </p>
-        <RouterLink class="about-btn-container" to="/about" target="_blank">
+        <RouterLink class="about-btn-container" to="/about">
             <button class="about-btn">了解更多 >></button>
         </RouterLink>    
     </div>
