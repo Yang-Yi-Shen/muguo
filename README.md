@@ -2,6 +2,8 @@
 
 A website for my cousin's small bakery! She sells moon cakes and other traditional Chinese snacks. Feel free to place an order, they taste great! (shipping is limited to Taiwan)
 
+> 🚧 Undergoing renovations 🚧
+
 ## Color scheme
 - **Background:** #F4D58D
 - **Body Text:** #3E4E50
