@@ -375,7 +375,20 @@ nav {
     }
 
     .header-bottom-content {
-        padding: 20px;
+        padding: 20px 20px;
+    }
+
+    .header-bottom-title, .header-bottom-text {
+        white-space: nowrap;
+        margin: 0px;
+    }
+
+    .header-bottom-title {
+        font-size: 44px;
+    }
+
+    .header-bottom-text {
+        font-size: 24px;
     }
 
     /* products section */
@@ -440,6 +453,12 @@ nav {
 
     .about-text-mobile {
         margin: 30px 0px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-nav {
+        gap: 20px;
     }
 }
 </style>
