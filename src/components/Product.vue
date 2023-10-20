@@ -44,4 +44,10 @@ defineProps({
 .product-name:hover {
     color: var(--contrast);
 }
+
+@media (max-width: 768px) {
+    .product {
+        width: calc((100vw - 60px) / 2);
+    }
+}
 </style>
