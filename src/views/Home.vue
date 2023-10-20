@@ -21,7 +21,7 @@ import Footer from '../components/Footer.vue';
             </ul>
         </nav>
         <div class="header-bottom">
-            <img class="header-image" src="/src/assets/cake_collection.jpeg">
+            <img class="header-image" src="/cake_collection.jpeg">
             <div class="header-bottom-content">
                 <h1 class="heading header-bottom-title">用愛心做的點心</h1>
                 <p class="header-bottom-text">因幫了一個生鐵王員外兒子使錢</p>
@@ -34,7 +34,7 @@ import Footer from '../components/Footer.vue';
             <ul class="product-list">
                 <li class="product-list-item">
                     <RouterLink to="/products/eggyolk">
-                        <img class="product-image" src="/src/assets/egg_yolk_cake.jpeg">
+                        <img class="product-image" src="/egg_yolk_cake.jpeg">
                     </RouterLink>
                     <RouterLink class="product-link" to="/products/eggyolk"><h2 class="product-name heading">紅豆月餅</h2></RouterLink>
                     <p class="product-description">一個很香的，用紅豆做的月餅。豆子都是廚師自手收集的。</p>
@@ -42,7 +42,7 @@ import Footer from '../components/Footer.vue';
                 </li>
                 <li class="product-list-item">
                     <RouterLink to="/products/taro">
-                        <img class="product-image" src="/src/assets/taro_cake.jpeg">
+                        <img class="product-image" src="/taro_cake.jpeg">
                     </RouterLink>
                     <RouterLink class="product-link" to="/products/taro"><h2 class="product-name heading">紅豆月餅</h2></RouterLink>
                     <p class="product-description">一個很香的，用紅豆做的月餅。豆子都是廚師自手收集的。</p>
@@ -50,7 +50,7 @@ import Footer from '../components/Footer.vue';
                 </li>
                 <li class="product-list-item">
                     <RouterLink to="/products/pineapple">
-                        <img class="product-image" src="/src/assets/pineapple_cake.jpeg">
+                        <img class="product-image" src="/pineapple_cake.jpeg">
                     </RouterLink>
                     <RouterLink class="product-link" to="/products/pineapple"><h2 class="product-name heading">紅豆月餅</h2></RouterLink>
                     <p class="product-description">一個很香的，用紅豆做的月餅。豆子都是廚師自手收集的。</p>
@@ -102,11 +102,11 @@ import Footer from '../components/Footer.vue';
                 <button class="about-btn">了解更多 >></button>
             </RouterLink>
         </div>
-        <img class="about-image" src="/src/assets/logo.jpeg">
+        <img class="about-image" src="/logo.jpeg">
     </div>
     <div id="about-mobile">
         <h1 class="about-title-mobile heading">關於我們</h1>
-        <img class="about-image-mobile" src="/src/assets/logo.jpeg">
+        <img class="about-image-mobile" src="/logo.jpeg">
         <p class="about-text-mobile">孫子曰：凡用兵之法，馳車千駟，革車千乘，帶甲十萬，千里饋糧，則內外之費
             ，賓客之用，膠漆之材，車甲之奉，日費千金，然后十萬之師舉矣。
         </p>
