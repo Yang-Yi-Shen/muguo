@@ -65,4 +65,14 @@ header {
         padding: 0px 50px;
     }
 }
+
+@media (max-width: 768px) {
+    header {
+        padding: 0px 30px;
+    }
+
+    .header-nav {
+        gap: 20px;
+    }
+}
 </style>

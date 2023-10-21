@@ -449,6 +449,7 @@ nav {
 
     .about-image-mobile {
         width: 100%;
+        object-fit: scale-down;
     }
 
     .about-text-mobile {
@@ -457,6 +458,9 @@ nav {
 }
 
 @media (max-width: 480px) {
+    .header-top {
+        padding: 0px 30px;
+    }
     .header-nav {
         gap: 20px;
     }
